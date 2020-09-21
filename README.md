@@ -84,6 +84,9 @@ Low priority:
 -only allow users to type one leter, then auto-enter
 
 
+#Credit
+I have given credit to sources of helpful infomation while building this project within the code files. Those thanks will be moved to this section as soon as possibke
+
 
 
 
