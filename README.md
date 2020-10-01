@@ -6,7 +6,7 @@ First of all, I am aware that the following guide is not clear and poorly format
 
 * [Basic infomation](#Basic-info)
 * [Use of program](#Use-of-program)
-* [Future of this project](#Future)
+* [Future of this project](#Future-of-this-project)
 * [Credit](#Credit)
 * [Disclaimer](#Disclaimer)
 
