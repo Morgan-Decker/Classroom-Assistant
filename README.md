@@ -4,7 +4,7 @@ First of all, I am aware that the following guide is not clear and poorly format
 
 ## Table of Contents
 
-* [Basic infomation](#Basic-info)
+* [Basic infomation](#Basic-infomation)
 * [Use of program](#Use-of-program)
 * [Future of this project](#Future-of-this-project)
 * [Credit](#Credit)
