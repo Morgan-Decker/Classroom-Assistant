@@ -96,7 +96,7 @@ Low priority:
 [likegeeks](https://likegeeks.com/python-gui-examples-tkinter-tutorial/) Tkinter basics
 
 **Scanner:**
-[Adrian from pyimagesearch](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/) QR code scanning
+[Adrian from pyimagesearch](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/) QR code scanning tutorial
 
 
 ## Disclaimer
