@@ -1,6 +1,5 @@
 # Classroom-Assistant
 This project aims to automate specific tasks in a classroom enviroment
-First of all, I am aware that the following guide is not clear and poorly formatted. This will be fixed as soon as possible
 
 ## Table of Contents
 
