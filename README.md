@@ -1,29 +1,21 @@
 # Classroom-Assistant
+This project aims to automate specific tasks in a classroom enviroment
 First of all, I am aware that the following guide is not clear and poorly formatted. This will be fixed as soon as possible
 
-Disclaimer:
-This program was not made by a professional. 
-There are many bad practices used in this program, alot of which I have fixed (trust me)
-This is because this was originally designed and built while I was learning to program
-This being said, any advice or constructive critism would be greatly appriciated :)
-Use at your own risk
+##Table of Contents
+* [Basic infomation](#Basic-info)
+* [Use of program](#Use-of-program)
+* [Future of this project](#Future)
+* [Disclaimer](#Disclaimer)
 
-(I have written a paper about the development of this project, which is available upon request (does not include latest updates))
-
-
-
-This program is used for teachers who have a class and do not want to undertake the repetitive tasks at the beggining of the class.
-
-For full functionality, a rasperry pi is required. This program can still be run without it, although the Motion.py file will not work.
-
-# Basic program run through:
+##Basic infomation
+### Basic program run through:
 1.Motion sensors detect movement (i.e someone entering the class)
 2.login GUI launched
 3.QR code scanner scans student/teacher/admin QR code
 4.They are logged into the program to do their nessasary tasks
 
-
-# All possible operations
+### All possible in-program operations
 Admin:
 's':addStudent	
 't':addTeacher	
@@ -46,7 +38,7 @@ quit
 
 Any user can use "Student" operations, "Admin" can use all operations.
 
-# Notes:
+### Notes:
 - Homework is only assigned to students which are currently in the class. New students will not be given any homework currently assigned
 
 - This program is not sutible for teachers/students in multiple classes
@@ -55,8 +47,26 @@ Any user can use "Student" operations, "Admin" can use all operations.
 
 - Homework can only be assigned one at a time (no multiple homeworks for different dates)
 
+(I have written a paper about the development of this project, which is available upon request (does not include latest updates))
 
-# Future changes to this program:
+
+
+##Disclaimer
+This program was not made by a professional. 
+There are many bad practices used in this program, alot of which I have fixed (trust me)
+This is because this was originally designed and built while I was learning to program
+This being said, any advice or constructive critism would be greatly appriciated :)
+Use at your own risk
+
+
+
+This program is used for teachers who have a class and do not want to undertake the repetitive tasks at the beggining of the class.
+
+For full functionality, a rasperry pi is required. This program can still be run without it, although the Motion.py file will not work.
+
+
+
+## Future of this project
 
 High priority:
 -add encryption in the scanner phase, or at least increased security
