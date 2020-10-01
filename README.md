@@ -12,32 +12,32 @@ First of all, I am aware that the following guide is not clear and poorly format
 
 ## Basic infomation
 ### Basic program run through:
-1.Motion sensors detect movement (i.e someone entering the class)
-2.login GUI launched
-3.QR code scanner scans student/teacher/admin QR code
-4.They are logged into the program to do their nessasary tasks
+1. Motion sensors detect movement (i.e someone entering the class)
+2. login GUI launched
+3. QR code scanner scans student/teacher/admin QR code
+4. They are logged into the program to do their nessasary tasks
 
 ## Use of program
 ### All possible in-program operations
-Admin:
-'s':addStudent	
-'t':addTeacher	
-'d':deleteStudent 
-'p':deleteTeacher
+**Admin:**
+- 's':addStudent	
+- 't':addTeacher	
+- 'd':deleteStudent 
+- 'p':deleteTeacher
 
-Teacher:
-'l':findStudentsTeacher, 
-'u':updatePrep, 
-'e':addToDetention, 
-'r':removeFromDetention, 
-'k':checkDetention, 
-'i':deletePrep,
+**Teacher:**
+- 'l':findStudentsTeacher, 
+- 'u':updatePrep, 
+- 'e':addToDetention, 
+- 'r':removeFromDetention, 
+- 'k':checkDetention, 
+- 'i':deletePrep,
 
-Student:
-'f':find,
-'c':checkPrep,
-'h':helpMe, 
-quit
+**Student:**
+- 'f':find,
+- 'c':checkPrep,
+- 'h':helpMe, 
+- 'q':quit
 
 Any user can use "Student" operations, "Admin" can use all operations.
 
@@ -57,29 +57,29 @@ Any user can use "Student" operations, "Admin" can use all operations.
 ## Future of this project
 
 High priority:
--add encryption in the scanner phase, or at least increased security
--If prep is handed in, prep automatically deleted (should really by changed by a setting)
--There is repeated code
--When removing a someone from the database/removing from detention, check if they were in the database to begin with and display a different message if not
--Dont allow homework to be made for a class that dosent exist
--for the try-excepts in menu, add feature to tell if it was a keypress error or an error in the procedure
--more helpful communication between the computer and the user
+- add encryption in the scanner phase, or at least increased security
+- If prep is handed in, prep automatically deleted (should really by changed by a setting)
+- There is repeated code
+- When removing a someone from the database/removing from detention, check if they were in the database to begin with and display a different message if not
+- Dont allow homework to be made for a class that dosent exist
+- for the try-excepts in menu, add feature to tell if it was a keypress error or an error in the procedure
+- more helpful communication between the computer and the user
 
 Medium priority:
--Have all of the users infomation ready loaded, so no need to repeat database operations (such as classroom a person belongs to)
--students can hand in prep early
+- Have all of the users infomation ready loaded, so no need to repeat database operations (such as classroom a person belongs to)
+- students can hand in prep early
 find() print more user friendly infomation
--In addToDetention, check if student is found before asking for detention reason
--for deleteHomework, communicate if the inputted class in present in the database/prep is actually deleted
--checkprep more helpful error messages
+- In addToDetention, check if student is found before asking for detention reason
+- for deleteHomework, communicate if the inputted class in present in the database/prep is actually deleted
+- checkprep more helpful error messages
 
 Low priority:
--organise procedures to make sense to the user (IE all prep related procedures listed next to each other)
--Create gui for the database (at least change colour of terminal based on user preference, access level)
--spell check program
--messaging system between admins, teachers, and students
--further options for users, such as colour and detention length
--only allow users to type one leter, then auto-enter
+- organise procedures to make sense to the user (IE all prep related procedures listed next to each other)
+- Create gui for the database (at least change colour of terminal based on user preference, access level)
+- spell check program
+- messaging system between admins, teachers, and students
+- further options for users, such as colour and detention length
+- only allow users to type one leter, then auto-enter
 
 
 ## Credit
