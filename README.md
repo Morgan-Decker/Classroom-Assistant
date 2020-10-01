@@ -12,9 +12,13 @@ First of all, I am aware that the following guide is not clear and poorly format
 
 ## Basic infomation
 ### Basic program run through:
-1. Motion sensors detect movement (i.e someone entering the class)
+1. Motion sensors detect movement into the classroom
+  - 2 are used to check if someone is leaving or entering
+  - Make sure to seperate the sensors with a material that absorbs infrared to avoid interference
 2. login GUI launched
+  - If the 'exit' option is chosen, stop the program
 3. QR code scanner scans student/teacher/admin QR code
+  - This process worked while using a 720p USB webcam. This section may not work for webcam quality lower than this
 4. They are logged into the program to do their nessasary tasks
 
 ## Use of program
@@ -83,7 +87,17 @@ Low priority:
 
 
 ## Credit
-I have given credit to sources of helpful infomation while building this project within the code files. Those thanks will be moved to this section as soon as possibke
+**Database operations:**
+[Python Central's](https://www.pythoncentral.io/introduction-to-sqlite-in-python/) sqlite3 basics tutorial
+
+**IR sensors with raspberry pi:**
+[freenove](http://digsys.upc.edu/rpi/comp/freenove/Processing.pdf) Setting up and using a single motion sensor (chapter 18)
+
+**Login GUI:**
+[likegeeks](https://likegeeks.com/python-gui-examples-tkinter-tutorial/) Tkinter basics
+
+**Scanner:**
+[Adrian from pyimagesearch](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/) QR code scanning
 
 
 ## Disclaimer
